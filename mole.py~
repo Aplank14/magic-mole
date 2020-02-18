@@ -60,10 +60,9 @@ GPIO.setup(13, GPIO.IN)
 GPIO.setup(19, GPIO.IN)
 GPIO.setup(26, GPIO.IN)
 
-GPIO.output(21, GPIO.HIGH)
-GPIO.output(16, GPIO.HIGH)
-GPIO.output(20, GPIO.HIGH)
-
+pin = nextMole()
+pin = nextMole()
+nextMole()
 while True:
     if(GPIO.input(16)):
         x = 1
